@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 """
 Creates C code from a table of NCP type 0x2222 packet types.

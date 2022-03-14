@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 """
 Converts netscreen snoop hex-dumps to a hex-dump that text2pcap can read.
 

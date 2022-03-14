@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 #
 # asn2wrs.py
@@ -7836,7 +7836,7 @@ def eth_do_module (ast, ectx):
 def testyacc(s, fn, defined_dict):
     ast = yacc.parse(s, debug=0)
     time_str = time.strftime("%a, %d %b %Y %H:%M:%S +0000", time.gmtime())
-    print("""#!/usr/bin/env python
+    print("""#!/usr/bin/env python2
 # Auto-generated from %s at %s
 from PyZ3950 import asn1""" % (fn, time_str))
     for module in ast:

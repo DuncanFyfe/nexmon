@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 """
 This program parse the output from pcap_compile() to visualize the CFG after

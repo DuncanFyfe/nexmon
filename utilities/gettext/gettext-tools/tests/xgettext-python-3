@@ -4,13 +4,13 @@
 # Test Python support: --from-code option and encoding recognition.
 
 cat <<\EOF > xg-py-3a.py
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # TRANSLATORS: Franè´Æois Pinard is a hero.
 print gettext.gettext("∆¸À‹∏Ï");
 EOF
 
 cat <<\EOF > xg-py-3b.py
-#!/usr/bin/env python
+#!/usr/bin/env python2
                        # Hey Emacs! -*- coding: euc-jp -*-
 # TRANSLATORS: Franè´Æois Pinard is a hero.
 print gettext.gettext("∆¸À‹∏Ï");
@@ -80,7 +80,7 @@ ${DIFF} xg-py-3.ok xg-py-3c.pot || Exit 1
 # distinguished in weird encodings like BIG5.
 
 cat <<\EOF > xg-py-3d.py
-#!/usr/bin/env python
+#!/usr/bin/env python2
                        # Hey Emacs! -*- coding: big5 -*-
 print gettext.gettext(u"¨\u0021");
 print gettext.gettext(u"¨\\u0021");

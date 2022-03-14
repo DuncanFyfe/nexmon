@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 # idl2deb - quick hack by W. Martin Borgert <debacle@debian.org> to create
 # Debian GNU/Linux packages from idl2wrs modules for Wireshark.

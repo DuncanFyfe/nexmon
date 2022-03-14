@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 #
 # Parses the CSV version of the IANA Service Name and Transport Protocol Port Number Registry
 # and generates a services(5) file.

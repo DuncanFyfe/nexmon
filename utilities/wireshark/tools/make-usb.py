@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 #
 # make-usb - Creates a file containing vendor and product ids.
 # It use the databases at

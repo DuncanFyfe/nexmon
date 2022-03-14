@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 __version__ = "1.13.2010.21:00"
 __author__  = "Marfi"
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 # asn2deb - quick hack by W. Borgert <debacle@debian.org> to create
 # Debian GNU/Linux packages from ASN.1 files for Wireshark.

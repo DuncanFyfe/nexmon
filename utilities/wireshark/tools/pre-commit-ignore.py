@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/bin/env python2
 #
 # Wireshark - Network traffic analyzer
 # By Gerald Combs <gerald@wireshark.org>

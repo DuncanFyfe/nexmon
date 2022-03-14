@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 __author__ = 'Ben "TheX1le" Smith, Marfi'
 __email__ = 'thex1le@gmail.com'
 __website__= ''

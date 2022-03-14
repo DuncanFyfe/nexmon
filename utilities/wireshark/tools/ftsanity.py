@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 """
 Check the sanity of field definitions in Wireshark.
 """

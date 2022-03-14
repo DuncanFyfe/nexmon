@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 """
 Test-suite to test wireshark's dfilter mechanism.
 """

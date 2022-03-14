@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 """
 Retrieve a packet from a wireshark/tshark core file
 and save it in a packet-capture file.
